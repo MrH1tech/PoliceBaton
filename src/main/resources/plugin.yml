@@ -1,0 +1,17 @@
+name: PoliceBaton
+version: '${project.version}'
+main: me.mrh1tech.policebaton.PoliceBaton
+api-version: 1.18
+authors: [ MrH1tech ]
+description: Create a freezing baton
+
+commands:
+  policebaton:
+    usage: '§b/policebaton <getitem/reload>'
+    description: With this command you can work with this plugin
+    aliases: pb
+    permission: policebaton.command.use
+
+permissions:
+  policebaton.command.use:
+    default: op

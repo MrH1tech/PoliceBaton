@@ -1,0 +1,47 @@
+# <========================================>
+#              Plugin PoliceBaton
+#               Version: ${project.version}
+#              Author: MrH1tech
+# <========================================>
+
+# Configuration of the main item
+item:
+  # Item type.
+  # Use https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html to find your item type
+  material: 'wooden_sword'
+  # Item name.
+  name: '&b&lДубинка'
+  # Item lore/description.
+  # If you don't want to use it, write all between this symbol |:
+  # |- ''|
+  lore:
+    - '&8Предмет полицейского'
+
+# Duration of the effects
+duration:
+  # Freeze duration in seconds! (integers!!)
+  freeze: 5
+
+# All message of this plugin
+messages:
+  # It's written when the player has frozen
+  # Placeholders: %player% - player who hit; %duration% - duration of the effect
+  freeze-message: '&cВы заморожены %player% на %duration% секунд!'
+  # It's written when the player has unfrozen
+  unfreeze-message: '&aВы разморожены!'
+  # It's written when the player's hit another player
+  # Placeholders: %player% - player who was frozen;
+  you-froze-player: '&aВы заморозили игрока %player%'
+  # It's written when config of the plugin successfully reload
+  config-reloaded: '&aКонфиг успешно перезагружен!'
+  # It's written when the main item was given to player
+  item-was-given: '&aВам успешно выдана дубинка!'
+
+  # All errors of this plugin
+  errors:
+    # It's written when somebody not player has used the command
+    only-for-players: '&cКоманда только для игроков!'
+    # It's written when arguments of the command not enough
+    few-arguments: '&cВведите дополнительную команду!'
+    # It's written when arguments of the command is wrong
+    unknown-subcommand: '&cНеизвестная дополнительная команда!'
