@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.mrh1tech</groupId>
-    <artifactId>PoliceBat</artifactId>
+    <artifactId>PoliceBaton</artifactId>
     <version>1.0.0</version>
     <packaging>jar</packaging>
 
-    <name>PoliceBat</name>
+    <name>PoliceBaton</name>
 
-    <description>Create a freezing bat</description>
+    <description>Create a freezing baton</description>
     <properties>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
