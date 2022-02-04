@@ -45,8 +45,8 @@ public final class PoliceBaton extends JavaPlugin {
     }
 
     private void initCommands() {
-        getCommand("policebat").setExecutor(new PoliceBatonCommand(this));
-        getCommand("policebat").setTabCompleter(new PoliceBatonCommand(this));
+        getCommand("policebaton").setExecutor(new PoliceBatonCommand(this));
+        getCommand("policebaton").setTabCompleter(new PoliceBatonCommand(this));
     }
 
     private void initListeners() {
